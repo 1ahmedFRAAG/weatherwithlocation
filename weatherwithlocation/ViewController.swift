@@ -1,14 +1,20 @@
-//
-//  ViewController.swift
-//  weatherwithlocation
-//
-//  Created by ahmed on 11/20/16.
-//  Copyright © 2016 ahmed. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
+
+  
+    @IBOutlet weak var backimage: UIImageView!
+    @IBOutlet weak var citylabel: UILabel!
+    @IBOutlet weak var datelabel: UILabel!
+    
+    
+    @IBOutlet weak var maxtemp: UILabel!
+    @IBOutlet weak var mintemp: UILabel!
+    
+    @IBOutlet weak var tableview: UITableView!
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
